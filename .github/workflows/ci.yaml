@@ -1,9 +1,10 @@
-on:
-  push:
-    branches:
-      - main
-  pull_request:
-  merge_group:
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   push:
+#     branches:
+#       - main
+#   pull_request:
+#   merge_group:
 name: ci
 jobs:
   test:
